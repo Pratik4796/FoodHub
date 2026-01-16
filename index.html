@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="head">
+      <h2 class="logo">FoodHub</h2>
+      <button id="Filters">Filters</button>
+      <button id="Offers">Offers</button>
+      <button id="Rating">Rating 4.5+</button>
+      <button id="alcohol">Serves Alcohol</button>
+      <button id="Open">Open Now</button>
+    </div>
+
+    <!-- insert all the cards here -->
+    <div id="root"></div>
+
+    <!-- Filter options popup -->
+    <div id="filterPopup">
+      <div class="popup-card-small">
+        <h3>Choose Filter</h3>
+
+        <label>
+          <input type="radio" name="sort" value="ratingHigh" checked />
+          Sort by Rating
+        </label>
+
+        <label>
+          <input type="radio" name="sort" value="costHigh" />
+          High to Low (Price)
+        </label>
+
+        <label>
+          <input type="radio" name="sort" value="costLow" />
+          Cost: Low to High
+        </label>
+
+        <label>
+          <input type="radio" name="sort" value="distance" />
+          Distance
+        </label>
+
+        <div class="popup-actions">
+          <button class="apply">Apply</button>
+          <button class="close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
