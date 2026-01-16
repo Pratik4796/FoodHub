@@ -156,6 +156,12 @@ body {
   margin-right: 45px;
   font-weight: bold;
   font-size: 35px;
+
+  @media (max-width: 768px) {
+    .logo {
+      font-size: 18px;
+    }
+  }
 }
 
 .popup-card-small {
@@ -196,4 +202,46 @@ body {
   font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 768px) {
+  /* Header */
+  #head {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  #head button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  /* Cards grid */
+  #root {
+    grid-template-columns: 1fr;
+    padding: 12px;
+  }
+
+  /* Card */
+  .card {
+    border-radius: 10px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card-content {
+    padding: 14px;
+  }
+
+  .card-header h3 {
+    font-size: 15px;
+  }
+
+  .rating {
+    font-size: 12px;
+  }
 }
