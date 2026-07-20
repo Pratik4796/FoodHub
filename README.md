@@ -1,45 +1,43 @@
-# FoodHub
+# 🍽️ FoodHub
 
-FoodHub is a simple restaurant listing web application inspired by platforms like Zomato and Swiggy.
-This project focuses on displaying restaurant data in a clean card-based UI with multiple filter and sorting options.
-
-The main goal of this project was to practice JavaScript logic, DOM manipulation, and UI design without using any external libraries or frameworks.
+A responsive restaurant listing web application that allows users to explore restaurants, browse menus, and discover food items through a clean and user-friendly interface. Built using modern front-end technologies with a focus on responsive design and seamless user experience.
 
 ---
 
-## Features
+## 🚀 Live Demo
 
-- Display restaurants in a card layout
-- Filter restaurants by:
-  - Rating (4.5+)
-  - Serves Alcohol
-  - Open Now (based on current time)
-- Sort restaurants using popup filters:
-  - Sort by Rating
-  - Price: Low to High
-  - Price: High to Low
-  - Distance
-- Popup filter modal with Apply and Close actions
-- Sticky header while scrolling
-- Clean and responsive UI
+👉 https://pratik4796.github.io/FoodHub/
 
 ---
 
-## Tech Stack
+## 📌 GitHub Repository
 
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
-
-No frameworks or libraries were used in this project.
+👉 https://github.com/Pratik4796/FoodHub
 
 ---
 
-## Project Structure
+## ✨ Features
 
-FoodHub/
+- 🍕 Browse restaurants and food items
+- 🔍 Search restaurants easily
+- 📱 Fully responsive design
+- ⚡ Fast and interactive user interface
+- 🎨 Clean and modern UI
+- 🖼️ Attractive restaurant cards
+- 🌐 Deployed using GitHub Pages
 
-- images/ # Restaurant images
-- index.html # Main HTML file
-- style.css # Styling for UI and layout
-- p.js # JavaScript logic (filters, sorting, rendering)
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Tools
+- Git
+- GitHub
+- VS Code
+
+---
